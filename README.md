@@ -25,9 +25,9 @@ python benchmark.py      # NSGA-II vs random search + savings table -> data/benc
 `surrogate.py` gradient-boosted surrogates -> `optimizer.py` NSGA-II + constraints + recommender -> `app.py` dashboard.
 
 ## Honest limitations
-- Material optical/physical properties and impact strength come from published datasheets (see `data/SOURCES.md`); cost, CO2, recyclability and the optical-quality formula are still assumptions, not ZEISS data.
+- Material optical/physical properties and impact strength come from published datasheets (see `data/SOURCES.md`); cost, CO2, recyclability and the optical-quality formula are still assumptions.
 - Optical quality and impact safety are simplified proxies; real use needs ray-tracing / FEA and physical testing.
-- Savings are measured against an editable baseline lens; they are not a claim about real ZEISS products.
+- Savings are measured against an editable baseline lens.
 - On easy (loosely constrained) cases NSGA-II is only marginally better than random search; it is clearly better on tightly constrained cases (e.g. -9 D: hypervolume 0.78 vs 0.62, with random search finding only 181 feasible designs).
 
 ## Roadmap
