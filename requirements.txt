@@ -1,0 +1,7 @@
+numpy
+pandas
+scikit-learn
+pymoo
+streamlit
+plotly
+joblib

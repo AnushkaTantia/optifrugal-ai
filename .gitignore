@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+models/*.joblib
+data/lens_design_dataset.csv
+.venv/
