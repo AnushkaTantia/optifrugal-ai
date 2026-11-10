@@ -1,4 +1,4 @@
-# OptiFrugal AI  (Team OptiMinds AI - ZEISS Beyond Code 2026, Theme 1: AI/ML for Advanced Frugal Innovation)
+# OptiFrugal AI  
 
 Design-optimisation platform that finds lens designs that are **cheaper, thinner/lighter, greener and at least as good optically**,
 and ties each design to what the customer actually needs.
